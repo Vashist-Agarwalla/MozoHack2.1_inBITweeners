@@ -7,12 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenArray</title>
     <link rel="icon" href="images/Logo.png" type="image/icon type">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/home.css">
     <!--fontstyle-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <!--icons-->
     <script src="https://kit.fontawesome.com/0443c57efb.js" crossorigin="anonymous"></script>
+    <style>
+        .dropbtn {
+            background-color: #3498DB;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: #2980B9;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown a:hover {
+            background-color: #ddd;
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
@@ -58,13 +103,7 @@
                 </div>
             </div>
         </div>
-        <div class="foot">
-            <h5>copyright 2021</h5>
-            <div class="line">
-                <hr>
-            </div>
-            <h4>Team inBITweeners</h4>
-        </div>
+        <%- include('./partials/foot') %>
     </div>
     <script>
         fetch('facts.json')
