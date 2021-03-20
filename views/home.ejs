@@ -5,25 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>GreenArray</title>
+    <link rel="icon" href="images/Logo.png" type="image/icon type">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--fontstyle-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/0443c57efb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-    <h1 id='home'>Home</h1>
-    <a href="/#video">Video</a>
-
-    <div class="taggbox-container" style=" width:90%;height:100%;overflow: auto;">
-        <div class="taggbox-socialwall" data-wall-id="52692" view-url="https://widget.taggbox.com/52692"> </div>
-        <script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script>
+    <div class="entire">
+        <div class="home">
+            <%- include('./partials/navbar') %>
+                <div class="homeright">
+                    <div class="hometext">
+                        BUILDING MORE URBAN GREEN SPACES
+                    </div>
+                    <div class="triangle">
+                        <img src="images/temp1.png" alt="triangle" height="100px" width="150px">
+                    </div>
+                </div>
+                <div class="funfact" id="#facts">
+                    <img src="images/ABOUTM.png" height="720px" width="100%">
+                    <div class="container">
+                        <div class="creeper">
+                            <img src="images/leaf2.png" height="550px">
+                        </div>
+                        <div class="factbox">
+                            <div class="tile">
+                                FUN FACT!
+                            </div>
+                            <div class="fact" id="factfact">
+                            </div>
+                        </div>
+                        <div class="leaf">
+                            <img src="images/Leaf1.png" height="450px" width="450px">
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="information" id="info">
+            <div class="frame">
+                <div class="title">
+                    <i class="fab fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;Information from around us!
+                </div>
+                <div class="taggbox-container">
+                    <div class="taggbox-socialwall" data-wall-id="52692"
+                        view-url="https://widget.taggbox.com/52692%22%3E"></div>
+                    <script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <h5>copyright 2021</h5>
+            <div class="line">
+                <hr>
+            </div>
+            <h4>Team inBITweeners</h4>
+        </div>
     </div>
-
-    <iframe id ="video" width="958" height="539" src="https://www.youtube.com/embed/sCQ2dAxsDk4" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    
-        <a href="/#home">Top</a>
-
+    <script>
+        fetch('facts.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+        function appendData(data) {
+            var mainContainer = document.getElementById("factfact");
+            var div = document.createElement("div");
+            var i = Math.floor(Math.random() * data.length);
+            div.innerHTML = '' + data[i].fact + '';
+            mainContainer.appendChild(div);
+        }
+    </script>
 </body>
 
 </html>
