@@ -6,12 +6,14 @@
         "climate": [
             "Warm"
         ],
-        "water": "Moist",
-        "soil": "Flexible",
+        "water": "moist",
+        "soil": "Well drained",
         "pottingMix": "Varies",
-        "sunlight": "Full Sun",
+        "sunlight": [
+            "Full Sun"
+        ],
         "pottedBeds": "Pot",
-        "growthTime": "60-120 Days",
+        "growthTime": 90,
         "rooftop": true,
         "article": "https://indiagardening.com/how-to-grow/how-to-grow-green-chilli-plant-at-home-in-india/",
         "youtube": "rPlEA5_JrBs",
@@ -28,9 +30,12 @@
         "water": "Moist",
         "soil": "Well drained",
         "pottingMix": "Yes",
-        "sunlight": "Partial shade to Full sun",
+        "sunlight": [
+            "Partial shade",
+            "Full sun"
+        ],
         "pottedBeds": "Pot",
-        "growthTime": "14-28  Days",
+        "growthTime": 21,
         "rooftop": true,
         "article": "https://www.almanac.com/plant/mint",
         "youtube": "KLtn6Po-404",
@@ -39,7 +44,7 @@
     {
         "name": "Lemongrass",
         "species": "Cymbopogon citratus",
-        "type": "Ornamental grass",
+        "type": "Kitchen herb",
         "climate": [
             "Warm",
             "Sunny"
@@ -47,9 +52,11 @@
         "water": "Moist",
         "soil": "Loamy",
         "pottingMix": "Varies",
-        "sunlight": "Full Sun",
+        "sunlight": [
+            "Full Sun"
+        ],
         "pottedBeds": "Both",
-        "growthTime": "120-180  Days",
+        "growthTime": 160,
         "rooftop": true,
         "article": "https://bonnieplants.com/how-to-grow/growing-lemongrass/",
         "youtube": "sxbATeFMDQU",
@@ -66,9 +73,12 @@
         "water": "Semi-Moist",
         "soil": "Well drained",
         "pottingMix": "No",
-        "sunlight": "Partial shade to Full sun",
+        "sunlight": [
+            "Partial shade",
+            "Full sun"
+        ],
         "pottedBeds": "Both",
-        "growthTime": "21-28 Days",
+        "growthTime": 24,
         "rooftop": true,
         "article": "https://www.almanac.com/plant/basil",
         "youtube": "1SG_MYmkDMU",
@@ -84,9 +94,12 @@
         "water": "Moist",
         "soil": "Well drained",
         "pottingMix": "Yes",
-        "sunlight": "Partial shade to Full sun",
+        "sunlight":[
+            "Partial shade",
+            "Full sun"
+        ],
         "pottedBeds": "Both",
-        "growthTime": "45-60 Days",
+        "growthTime": 53,
         "rooftop": true,
         "article": "https://www.allthatgrows.in/blogs/posts/grow-spinach-at-home-in-india",
         "youtube": "1RRNu4QS11g",
@@ -102,9 +115,11 @@
         "water": "Moist",
         "soil": "Well drained",
         "pottingMix": "Yes",
-        "sunlight": "Partial shade",
+        "sunlight": [
+            "Partial shade"
+        ],
         "pottedBeds": "Both",
-        "growthTime": "60-90 Days",
+        "growthTime": 1200,
         "rooftop": true,
         "article": "https://bonnieplants.com/how-to-grow/growing-peppers/",
         "youtube": "YEKrWFxnLJ8",
@@ -120,9 +135,11 @@
         "water": "Semi-Moist",
         "soil": "Loamy",
         "pottingMix": "Varies",
-        "sunlight": "Full Sun",
+        "sunlight": [
+            "Full Sun"
+        ],
         "pottedBeds": "Both",
-        "growthTime": "55-60 Days",
+        "growthTime": 57,
         "rooftop": true,
         "article": "https://www.almanac.com/plant/cucumbers",
         "youtube": "5hbCJQFBXEU",
@@ -138,9 +155,12 @@
         "water": "Moist",
         "soil": "Loamy",
         "pottingMix": "No",
-        "sunlight": "Partial shade to Full sun",
+        "sunlight": [
+            "Partial shade" ,
+            "Full sun"
+        ],
         "pottedBeds": "Beds",
-        "growthTime": "80-90 Days",
+        "growthTime": 85,
         "rooftop": true,
         "article": "https://www.gardeningknowhow.com/edible/vegetables/greens/growing-mustard-greens.htm",
         "youtube": "2KD5tYWYaTg",
@@ -156,9 +176,12 @@
         "water": "Semi-Moist",
         "soil": "Well drained",
         "pottingMix": "Varies",
-        "sunlight": "Partial shade to Full sun",
+        "sunlight": [
+            "Partial shade",
+            "Full sun"
+        ],
         "pottedBeds": "Pot",
-        "growthTime": "14-21 Days",
+        "growthTime": 18,
         "rooftop": true,
         "article": "https://www.burpee.com/gardenadvicecenter/encyclopedia/annual-flowers/learn-about-vincas/encyclopedia__Vinca-article.html",
         "youtube": "r0CYc8eIs_M",
@@ -175,9 +198,12 @@
         "water": "Wet",
         "soil": "Loamy",
         "pottingMix": "Varies",
-        "sunlight": "Partial shade to Full sun",
+        "sunlight": [
+            "Partial shade"
+            "Full sun"
+        ],
         "pottedBeds": "Beds",
-        "growthTime": "120-150 Days",
+        "growthTime": 135,
         "rooftop": true,
         "article": "https://harvesttotable.com/how_to_grow_peanuts/#:~:text=Plant%20peanuts%20in%20full%20sun,soil%20rich%20in%20organic%20matter.&text=The%20soil%20must%20be%20loose,pH%20of%205.8%20to%206.2.",
         "youtube": "nLJJLz26ehg",
@@ -193,9 +219,12 @@
         "water": "Semi-Moist",
         "soil": "Loamy",
         "pottingMix": "No",
-        "sunlight": "Partial shade to Full sun",
+        "sunlight":[
+            "Partial shade"
+            "Full sun"
+        ],
         "pottedBeds": "Both",
-        "growthTime": "150-180 Days",
+        "growthTime": 165,
         "rooftop": true,
         "article": "https://balconygardenweb.com/how-to-grow-ashwagandha-cultivation-and-growing-ashwagandha/",
         "youtube": "RidxDdQTuuM",
@@ -211,9 +240,11 @@
         "water": "Moist",
         "soil": "Loamy",
         "pottingMix": "Yes",
-        "sunlight": "Partial shade",
+        "sunlight": [
+            "Partial shade"
+        ],
         "pottedBeds": "Pot",
-        "growthTime": "20-50 Days",
+        "growthTime": 35,
         "rooftop": true,
         "article": "https://www.thespruce.com/grow-alocasia-indoors-1902735",
         "youtube": "Rf0pk6blRpA",
@@ -229,9 +260,11 @@
         "water": "Wet",
         "soil": "Well drained",
         "pottingMix": "Yes",
-        "sunlight": "Full sun",
+        "sunlight": [
+            "Full sun"
+        ],
         "pottedBeds": "Beds",
-        "growthTime": "180-360 Days",
+        "growthTime": 270,
         "rooftop": true,
         "article": "https://www.edisonfordwinterestates.org/growing-caring-for-papaya-trees/#:~:text=To%20successfully%20grow%20Papayas%2C%20you,in%206%20to%2012%20months.",
         "youtube": "oKXy8XC4kag",
@@ -247,9 +280,12 @@
         "water": "Semi-Moist",
         "soil": "Well drained",
         "pottingMix": "Yes",
-        "sunlight": "Partial shade to Full sun",
+        "sunlight": [
+            "Partial shade"
+            "Full sun"
+        ],
         "pottedBeds": "Pot",
-        "growthTime": "180-360 Days",
+        "growthTime": 270,
         "rooftop": true,
         "article": "https://www.thespruce.com/how-to-plant-roses-1403055",
         "youtube": "sCQ2dAxsDk4",
@@ -260,14 +296,18 @@
         "species": "Curcuma longa",
         "type": "Spice",
         "climate": [
-            "Warm", "Sunny"
+            "Warm",
+            "Sunny"
         ],
         "water": "Semi-Moist",
         "soil": "Well drained",
         "pottingMix": "Yes",
-        "sunlight": "Partial shade to Full sun",
+        "sunlight": [
+            "Partial shade",
+            "Full sun"
+        ],
         "pottedBeds": "Pot",
-        "growthTime": "100-150 Days",
+        "growthTime": 125,
         "rooftop": true,
         "article": "https://homesteadandchill.com/how-to-grow-turmeric/#:~:text=Turmeric%20requires%208%20to%2010,the%20ground%20or%20in%20containers.",
         "youtube": "ikNVzf6GUWo",
@@ -278,14 +318,17 @@
         "species": "Tagetes erecta",
         "type": "Decorative",
         "climate": [
-            "Warm", "Sunny"
+            "Warm", 
+            "Sunny"
         ],
         "water": "Dry, Semi-Moist",
         "soil": "Rich",
         "pottingMix": "Varies",
-        "sunlight": "Full sun",
+        "sunlight": [
+            "Full sun"
+        ],
         "pottedBeds": "Pot",
-        "growthTime": "55-100 Days",
+        "growthTime": 75,
         "rooftop": true,
         "article": "https://gardenerspath.com/plants/flowers/grow-marigolds/",
         "youtube": "wtu495XSTWc",
@@ -296,14 +339,18 @@
         "species": "S. lycopersicum",
         "type": "Creeper",
         "climate": [
-            "Warm", "Cold"
+            "Warm",
+            "Cold"
         ],
         "water": "Moist",
         "soil": "Well drained",
         "pottingMix": "Yes",
-        "sunlight": "Partial shade to Full sun",
+        "sunlight": [
+            "Partial shade"
+            "Full sun"
+        ],
         "pottedBeds": "Both",
-        "growthTime": "60-70 Days",
+        "growthTime": 65,
         "rooftop": true,
         "article": "https://www.allthatgrows.in/blogs/posts/how-to-grow-tomatoes-at-home-in-india",
         "youtube": "eySTo2GgvoY",
@@ -314,14 +361,17 @@
         "species": "S. melongena",
         "type": "Creeper",
         "climate": [
-            "Warm", "Cold"
+            "Warm", 
+            "Cold"
         ],
         "water": "Moist",
         "soil": "Loamy",
         "pottingMix": "Yea",
-        "sunlight": "Full sun",
+        "sunlight": [
+            "Full sun"
+        ],
         "pottedBeds": "Pot",
-        "growthTime": "80-90 Days",
+        "growthTime": 85,
         "rooftop": true,
         "article": "https://www.wikihow.com/Grow-Eggplants-in-Pots",
         "youtube": "14y0GXNdsK8",
@@ -332,14 +382,17 @@
         "species": "Brassica oleracea",
         "type": "Shrubs",
         "climate": [
-            "Warm", "Cold"
+            "Warm", 
+            "Cold"
         ],
         "water": "Moist",
         "soil": "Loamy",
         "pottingMix": "Yea",
-        "sunlight": "Full sun",
+        "sunlight": [
+            "Full sun"
+        ],
         "pottedBeds": "Beds",
-        "growthTime": "90-120 Days",
+        "growthTime": 105,
         "rooftop": true,
         "article": "https://www.wikihow.com/Grow-Cauliflower",
         "youtube": "uhFbRyL5Jrc",
