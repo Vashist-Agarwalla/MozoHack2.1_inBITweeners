@@ -110,7 +110,6 @@
         "youtube": "YEKrWFxnLJ8",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUY8QAhqY4Q8OqevDm21R_Jc9OhQSVX43UzQ&usqp=CAU"
     },
-    
     {
         "name": "Cucumber",
         "species": "Cucumis sativus",
@@ -128,5 +127,222 @@
         "article": "https://www.almanac.com/plant/cucumbers",
         "youtube": "5hbCJQFBXEU",
         "image": "https://i2.wp.com/www.gardeningchannel.com/wp-content/uploads/2020/04/gardeningchannel-growing-cucumber-in-pot.jpg?fit=720%2C400&ssl=1"
+    },
+    {
+        "name": "Mustard",
+        "species": "Brassica ",
+        "type": "Domesticated Crop",
+        "climate": [
+            "Cold"
+        ],
+        "water": "Moist",
+        "soil": "Loamy",
+        "pottingMix": "No",
+        "sunlight": "Partial shade to Full sun",
+        "potted/Beds": "Beds",
+        "growthTime": "80-90 Days",
+        "rooftop": true,
+        "article": "https://www.gardeningknowhow.com/edible/vegetables/greens/growing-mustard-greens.htm",
+        "youtube": "2KD5tYWYaTg",
+        "image": "https://www.gardeningknowhow.com/wp-content/uploads/2011/01/mustard-greens-1-400x300.jpg"
+    },
+    {
+        "name": "Vinca Rosea",
+        "species": "Apocynaceae",
+        "type": "Flowering plant/medicinal",
+        "climate": [
+            "Warm"
+        ],
+        "water": "Semi-Moist",
+        "soil": "Well drained",
+        "pottingMix": "Varies",
+        "sunlight": "Partial shade to Full sun",
+        "potted/Beds": "Pot",
+        "growthTime": "14-21 Days",
+        "rooftop": true,
+        "article": "https://www.burpee.com/gardenadvicecenter/encyclopedia/annual-flowers/learn-about-vincas/encyclopedia__Vinca-article.html",
+        "youtube": "r0CYc8eIs_M",
+        "image": "https://www.burpee.com/on/demandware.static/-/Sites-siteCatalog_Burpee_US/default/dw59ee3638/Category%20Content%20Images/CLP%20Flowers/CATID-3790_Vinca.jpg"
+    },
+    {
+        "name": "Groundnut",
+        "species": "Arachis hypogaea",
+        "type": "Domesticated Crop",
+        "climate": [
+            "Warm",
+            "Sunny"
+        ],
+        "water": "Wet",
+        "soil": "Loamy",
+        "pottingMix": "Varies",
+        "sunlight": "Partial shade to Full sun",
+        "potted/Beds": "Beds",
+        "growthTime": "120-150 Days",
+        "rooftop": true,
+        "article": "https://harvesttotable.com/how_to_grow_peanuts/#:~:text=Plant%20peanuts%20in%20full%20sun,soil%20rich%20in%20organic%20matter.&text=The%20soil%20must%20be%20loose,pH%20of%205.8%20to%206.2.",
+        "youtube": "nLJJLz26ehg",
+        "image": "https://www.commodityonline.com/uploads/b2b-commodity/2016/groundnuts-7775959228.jpg"
+    },
+    {
+        "name": "Ashwagandha",
+        "species": "Withania somnifera",
+        "type": "Medicinal plant",
+        "climate": [
+            "Sunny"
+        ],
+        "water": "Semi-Moist",
+        "soil": "Loamy",
+        "pottingMix": "No",
+        "sunlight": "Partial shade to Full sun",
+        "potted/Beds": "Both",
+        "growthTime": "150-180 Days",
+        "rooftop": true,
+        "article": "https://balconygardenweb.com/how-to-grow-ashwagandha-cultivation-and-growing-ashwagandha/",
+        "youtube": "RidxDdQTuuM",
+        "image": "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2015/11/how-to-grow-ASHWAGANDHa.jpeg.webp"
+    },
+    {
+        "name": "Alocasia Plant",
+        "species": "Alocasia macrorrhizos",
+        "type": "Decorative",
+        "climate": [
+            "Warm"
+        ],
+        "water": "Moist",
+        "soil": "Loamy",
+        "pottingMix": "Yes",
+        "sunlight": "Partial shade",
+        "potted/Beds": "Pot",
+        "growthTime": "20-50 Days",
+        "rooftop": true,
+        "article": "https://www.thespruce.com/grow-alocasia-indoors-1902735",
+        "youtube": "Rf0pk6blRpA",
+        "image": "https://www.thespruce.com/thmb/0lpP9dPe233X9K8yiBxvGe4Agk4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/grow-alocasia-indoors-1902735-03-e84e0164715746a0aee5b1a83aefe4ca.jpg"
+    },
+    {
+        "name": "Papaya",
+        "species": "Carica papaya",
+        "type": "Fruit",
+        "climate": [
+            "Warm"
+        ],
+        "water": "Wet",
+        "soil": "Well drained",
+        "pottingMix": "Yes",
+        "sunlight": "Full sun",
+        "potted/Beds": "Beds",
+        "growthTime": "180-360 Days",
+        "rooftop": true,
+        "article": "https://www.edisonfordwinterestates.org/growing-caring-for-papaya-trees/#:~:text=To%20successfully%20grow%20Papayas%2C%20you,in%206%20to%2012%20months.",
+        "youtube": "oKXy8XC4kag",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlsZrwbqjpB3zmkhf6lZuY8FDl1XTAF7VqhA&usqp=CAU"
+    },
+    {
+        "name": "Rose",
+        "species": "Rosa rubiginosa",
+        "type": "Decorative",
+        "climate": [
+            "Warm"
+        ],
+        "water": "Semi-Moist",
+        "soil": "Well drained",
+        "pottingMix": "Yes",
+        "sunlight": "Partial shade to Full sun",
+        "potted/Beds": "Pot",
+        "growthTime": "180-360 Days",
+        "rooftop": true,
+        "article": "https://www.thespruce.com/how-to-plant-roses-1403055",
+        "youtube": "sCQ2dAxsDk4",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS657lzJ43uNBAOH6A5HW9LRlnU4Fsl5SbYMQ&usqp=CAU"
+    },
+    {
+        "name": "Turmeric",
+        "species": "Curcuma longa",
+        "type": "Spice",
+        "climate": [
+            "Warm", "Sunny"
+        ],
+        "water": "Semi-Moist",
+        "soil": "Well drained",
+        "pottingMix": "Yes",
+        "sunlight": "Partial shade to Full sun",
+        "potted/Beds": "Pot",
+        "growthTime": "100-150 Days",
+        "rooftop": true,
+        "article": "https://homesteadandchill.com/how-to-grow-turmeric/#:~:text=Turmeric%20requires%208%20to%2010,the%20ground%20or%20in%20containers.",
+        "youtube": "ikNVzf6GUWo",
+        "image": "https://homesteadandchill.com/wp-content/uploads/2019/09/how-to-grow-turmeric-hands-harvest-feature-e1568474428123-1140x1232.jpeg"
+    },
+    {
+        "name": "Marigold",
+        "species": "Tagetes erecta",
+        "type": "Decorative",
+        "climate": [
+            "Warm", "Sunny"
+        ],
+        "water": "Dry, Semi-Moist",
+        "soil": "Rich",
+        "pottingMix": "Varies",
+        "sunlight": "Full sun",
+        "potted/Beds": "Pot",
+        "growthTime": "55-100 Days",
+        "rooftop": true,
+        "article": "https://gardenerspath.com/plants/flowers/grow-marigolds/",
+        "youtube": "wtu495XSTWc",
+        "image": "https://gardenerspath.com/wp-content/uploads/2018/01/Ode-to-the-Marigold-Revisiting-a-Garden-Staple.jpg"
+    },
+    {
+        "name": "Tomato",
+        "species": "S. lycopersicum",
+        "type": "Creeper",
+        "climate": [
+            "Warm", "Cold"
+        ],
+        "water": "Moist",
+        "soil": "Well drained",
+        "pottingMix": "Yes",
+        "sunlight": "Partial shade to Full sun",
+        "potted/Beds": "Both",
+        "growthTime": "60-70 Days",
+        "rooftop": true,
+        "article": "https://www.allthatgrows.in/blogs/posts/how-to-grow-tomatoes-at-home-in-india",
+        "youtube": "eySTo2GgvoY",
+        "image": "https://edge.bonnieplants.com/www/tiny/uploads/20200810204147/BONNIE_tomatoes_iStock-481349128-1800px-1600x800.jpg"
+    },
+    {
+        "name": "Brinjal",
+        "species": "S. melongena",
+        "type": "Creeper",
+        "climate": [
+            "Warm", "Cold"
+        ],
+        "water": "Moist",
+        "soil": "Loamy",
+        "pottingMix": "Yea",
+        "sunlight": "Full sun",
+        "potted/Beds": "Pot",
+        "growthTime": "80-90 Days",
+        "rooftop": true,
+        "article": "https://www.wikihow.com/Grow-Eggplants-in-Pots",
+        "youtube": "14y0GXNdsK8",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61NgkjvTwBL.jpg"
+    },
+    {
+        "name": "Cauliflower",
+        "species": "Brassica oleracea",
+        "type": "Shrubs",
+        "climate": [
+            "Warm", "Cold"
+        ],
+        "water": "Moist",
+        "soil": "Loamy",
+        "pottingMix": "Yea",
+        "sunlight": "Full sun",
+        "potted/Beds": "Beds",
+        "growthTime": "90-120 Days",
+        "rooftop": true,
+        "article": "https://www.wikihow.com/Grow-Cauliflower",
+        "youtube": "uhFbRyL5Jrc",
+        "image": "https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/image_nodes/cauliflower.jpg?itok=-SYNFsWf"
     }
 ]
