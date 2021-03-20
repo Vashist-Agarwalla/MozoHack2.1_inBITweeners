@@ -3,6 +3,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 
 const UserData = require('./models/user')
+const PlantData = require('./models/plant')
 
 const app = express();
 
@@ -23,19 +24,22 @@ mongoose.connect('mongodb://localhost:27017/mozoHack', { useNewUrlParser: true, 
 
 let activeUser = null;
 
-app.get('/', (req, res) => {
-    res.render('home')
+app.get('/', async(req, res) => {
+    // const data = await PlantData.find()
+    // console.log(data)
+
+    res.render('home', { activeUser })
 })
 
 app.get('/login', (req, res) => {
     res.render('login')
 })
 
-app.post('/login', async (req, res) => {
+app.post('/login', async(req, res) => {
     const active = new UserData(req.body)
     activeUser = await UserData.findOne({ username: active.username, password: active.password })
         .then(
-            console.log(activeUser)
+            res.redirect('/')
         )
         .catch(
             console.log('wrong password')
@@ -47,14 +51,15 @@ app.get('/signup', (req, res) => {
     res.render('signup')
 })
 
-app.post('/signup', async (req, res) => {
+app.post('/signup', async(req, res) => {
     const newUser = new UserData(req.body);
     await newUser.save()
     res.redirect('/login')
 })
 
 app.get('/logout', (req, res) => {
-    res.send("logout")
+    activeUser = null
+    res.redirect('/')
 })
 
 app.listen(3030, () => {

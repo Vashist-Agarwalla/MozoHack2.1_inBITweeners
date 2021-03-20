@@ -11,38 +11,22 @@
         <a href="/" style="margin-right:0;">ABOUT</a>
     </div>
     <div class="rightnav">
-        <button class="loginbutton">
+        <!-- <button class="loginbutton">
             LOGIN
-        </button>
+        </button> -->
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </div>
+            <% if (activeUser===null) { %>
+                <button class="dropbtn">Login</button>
+                <div class="dropdown-content">
+                    <a href="/login">Login</a>
+                    <a href="/signup">Sign Up</a>
+                </div>
+                <% } else { %>
+                    <button class="dropbtn">Hi,<%= activeUser.username %> </button>
+                    <div class="dropdown-content">
+                        <a href="/logout">Log Out</a>
+                    </div>
+                    <% } %>
         </div>
     </div>
 </div>
-
-<script>
-    /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content */
-    function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function (event) {
-        if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-        }
-    }
-</script>
