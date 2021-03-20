@@ -30,6 +30,14 @@ app.get('/', async(req, res) => {
     res.render('home', { activeUser })
 })
 
+app.get('/grow', async(req, res) => {
+    res.render('grow', { activeUser })
+})
+
+app.get('/about', async(req, res) => {
+    res.render('about', { activeUser })
+})
+
 app.get('/search', async(req, res) => {
     if (activeUser === null) {
         res.redirect('/login')
