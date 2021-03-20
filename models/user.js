@@ -12,7 +12,8 @@ const userSchema = new mongoose.Schema({
     location: {
         type: String
     },
-    pdate: [String]
+    pdate: [String],
+    about: [String]
 })
 
 const UserData = mongoose.model('UserData', userSchema)

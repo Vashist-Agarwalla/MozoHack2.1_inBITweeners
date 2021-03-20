@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const plantSchema = new mongoose.Schema({
-    name : {
+    name: {
         type: String,
         required: true
     },
@@ -21,9 +21,7 @@ const plantSchema = new mongoose.Schema({
     pottingMix: {
         type: String,
     },
-    sunlight: {
-        type: String,
-    },
+    sunlight: [String],
     pottedBeds: {
         type: String,
     },

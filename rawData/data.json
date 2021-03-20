@@ -19,7 +19,7 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy5nSSu4f23YSYjyt0XDs-pKWAzjOKaQwt2w&usqp=CAU",
         "about": [
             "To plant the chillies in containers, firstly, you have to choose a container that is big enough for the plant. A container of size 12-15 inches, with proper drainage holes, is ideal.",
-            
+
             "You can use the seeds from chillies at your kitchen or get a plant from a nursery.",
 
             "Prepare a mixture of part soil and part cow dung manure and plant the seeds into the pot; avoid putting them deep into the soil.",
@@ -52,9 +52,9 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iVBPQtGkz7qWwlhDCw3xTAunp-E9ZLaeYJPLnx5m0Oiw8qChBD3YqYBgOw&usqp=CAc",
         "about": [
             "For growing outdoors, plant one or two purchased plants (or one or two cuttings from a friend) in moist soil.",
-            
+
             "For the best growth in confined areas such as containers, topdress plants with a thin layer of compost or organic fertilizer every few months. Aboveground pots will need winter protection in cold climates.",
-             
+
             "Be sure to water them regularly to keep the soil evenly moist.",
 
             "You can also just pick the leaves as you need them.",
@@ -84,11 +84,11 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxddSvbr5bqfRm8iwJrilm4BqTCXHityYHZg&usqp=CAU",
         "about": [
             "Plant lemongrass in a large pot that is at least 12 inches across",
-            
+
             "If you’re adding several lemongrass plants to planting beds, space plants 24 inches apart.",
 
             "Keep an eye on plants in pots. With sufficient water, roots can quickly fill a too-small pot and burst it.",
-             
+
             "Harvest lemongrass for its bulbous stem bases, rich with lemony flavor, or clip leaves for infusing tea and soup stock.",
 
             "Start harvesting as soon as plants are 12 inches tall and stem bases are at least ½-inch thick. Cut stalks at ground level, or hand-pull entire stalks. ",
@@ -119,19 +119,19 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWO8V8oxndyDbArd6XowWOrhFpXY4PXQA6Sg&usqp=CAU",
         "about": [
             "Basil works great in containers or raised beds, as these allow for better drainage.",
-            
+
             "Plant seeds/seedlings about ¼-inch deep and 10 to 12 inches apart. They should grow to about 12 to 24 inches in height.",
-             
+
             "After the seedlings have produced their first six leaves, prune to above the second set. This encourages the plants to start branching, resulting in more leaves for harvest.",
 
             "Every time a branch has six to eight leaves, repeat pruning the branches back to their first set of leaves.",
 
             "After about 6 weeks, pinch off the center shoot to prevent early flowering. If flowers do grow, just cut them off.",
-            
+
             "Start picking the leaves of basil as soon as the plants are 6 to 8 inches tall.",
 
             "Harvest in the early morning, when leaves are at their juiciest.",
-            
+
             "Make sure to pick the leaves regularly to encourage growth throughout the summer."
         ]
     },
@@ -145,7 +145,7 @@
         "water": "Moist",
         "soil": "Well drained",
         "pottingMix": "Yes",
-        "sunlight":[
+        "sunlight": [
             "Partial shade",
             "Full sun"
         ],
@@ -157,9 +157,9 @@
         "image": "https://cdn.shopify.com/s/files/1/1380/2059/products/Spinach-All-Green_600x600.jpg?v=1598082959",
         "about": [
             "Ensure that the area where you are planning to plant the seeds is a balance of light and shade.",
-            
+
             "Pre-prep the soil with aged manure at least a week before planting the seeds.",
-             
+
             "It is advisable to sow the seeds half an inch deep into the soil with at least 3” - 4” of space between each seed. This will give the plants room to grow and expand their roots.",
 
             "Ensure that the soil remains moist. Do not overwater them. It is advisable to water early in the morning so that the plants can absorb the water throughout the day.",
@@ -220,7 +220,7 @@
         "soil": "Loamy",
         "pottingMix": "No",
         "sunlight": [
-            "Partial shade" ,
+            "Partial shade",
             "Full sun"
         ],
         "pottedBeds": "Beds",
@@ -283,7 +283,7 @@
         "water": "Semi-Moist",
         "soil": "Loamy",
         "pottingMix": "No",
-        "sunlight":[
+        "sunlight": [
             "Partial shade",
             "Full sun"
         ],
@@ -382,7 +382,7 @@
         "species": "Tagetes erecta",
         "type": "Decorative",
         "climate": [
-            "Warm", 
+            "Warm",
             "Sunny"
         ],
         "water": "Dry, Semi-Moist",
@@ -425,7 +425,7 @@
         "species": "S. melongena",
         "type": "Creeper",
         "climate": [
-            "Warm", 
+            "Warm",
             "Cold"
         ],
         "water": "Moist",
@@ -446,7 +446,7 @@
         "species": "Brassica oleracea",
         "type": "Shrubs",
         "climate": [
-            "Warm", 
+            "Warm",
             "Cold"
         ],
         "water": "Moist",
