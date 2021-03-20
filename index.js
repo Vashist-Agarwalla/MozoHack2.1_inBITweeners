@@ -25,6 +25,7 @@ mongoose.connect('mongodb://localhost:27017/mozoHack', { useNewUrlParser: true, 
 let activeUser = null;
 
 let plantData;
+let selectedPlant;
 
 app.get('/', async(req, res) => {
     res.render('home', { activeUser })
@@ -50,6 +51,17 @@ app.post('/search', async(req, res) => {
     console.log(filter)
     const plantData = await PlantData.find(filter)
     res.render('search', { activeUser, plantData })
+})
+
+app.post('/search/:id', async(req, res) => {
+    const { id } = req.params
+    selectedPlant = await PlantData.findOne({ _id: id })
+    console.log(selectedPlant)
+    res.redirect('/info')
+})
+
+app.get('/info', async(req, res) => {
+    res.render('info', { activeUser, selectedPlant })
 })
 
 app.get('/login', (req, res) => {

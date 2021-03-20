@@ -1,0 +1,83 @@
+.backg {
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.bgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contain1 {
+    position: absolute;
+    text-align: center;
+    color: black;
+    left: 50px;
+    width: 300px;
+    height: 60px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 40px;
+    box-shadow: 20px 20px 10px #888888;
+}
+
+.contain2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    text-align: center;
+    color: black;
+    left: 50px;
+    top: 300px;
+    width: 800px;
+    height: 350px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 40px;
+    box-shadow: 20px 20px 10px #888888;
+}
+
+.plantimage {
+    position: absolute;
+    top: 90px;
+    height: 200px;
+    width: 370px;
+    background-color: rgba( 255, 255, 255, 0.7);
+    /*THIS MAY BE REMOVED AFTER INSERTING IMAGE JUST FOR TEMPLATE PURPOSE*/
+    left: 400px;
+}
+
+.plantimage img {
+    position: absolute;
+    /*THIS MAY BE REMOVED AFTER INSERTING IMAGE JUST FOR TEMPLATE PURPOSE*/
+}
+
+.vid {
+    position: absolute;
+    top: 170px;
+    height: 300px;
+    width: 550px;
+    background-color: rgba( 255, 255, 255, 0.7);
+    /*THIS MAY BE REMOVED AFTER INSERTING IMAGE JUST FOR TEMPLATE PURPOSE*/
+    right: 35px;
+}
+
+button {
+    position: absolute;
+    bottom: 80px;
+    right: 180px;
+    font-size: 30px;
+    background-color: #16201a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 10px;
+    opacity: 0.9;
+}

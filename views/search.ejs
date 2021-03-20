@@ -35,7 +35,7 @@
 
                         <label for="location"><b>Choose water availability:</b></label>
                         <select id="location" name="water">
-                            <option ></option>
+                            <option></option>
                             <option value="Wet">Wet</option>
                             <option value="Moist">Moist</option>
                             <option value="Semi-Moist">Semi moist</option>
@@ -44,7 +44,7 @@
 
                         <label for="soil"><b>Choose your soil type:</b></label>
                         <select class="box" name="soil">
-                            <option ></option>
+                            <option></option>
                             <option value="Well drained">Well drained</option>
                             <option value="Loamy">Loamy</option>
                             <option value="Sand">Sand</option>
@@ -53,18 +53,17 @@
 
                         <label for="rooftop"><b>Choose your preferance:</b></label>
                         <select class="box">
-                            <option ></option>
+                            <option></option>
                             <option value="rooftop">Rooftop</option>
                             <option value="indoors">Indoors</option>
                         </select><br><br>
 
 
-                        <label for="Sunlight"><b>Sunlight</b></label>
+                        <label for="Sunlight"><b>Sunlight:</b></label>
                         <select class="box" name="sunlight">
-                            <option ></option>
+                            <option></option>
                             <option value="Full sun">Full sun</option>
                             <option value="Partial shade">Partial shade</option>
-                            <option value="Partial shade to Full sun">Both</option>
                         </select><br><br>
 
                         <div class="clearfix">
@@ -111,7 +110,9 @@
                                                         <%= plantData[i].water %>
                                                     </div>
                                                     <div class="sunlight element">Sunlight:
-                                                        <%= plantData[i].sunlight %>
+                                                        <% for (x in plantData[i].sunlight ) { %>
+                                                            <%= plantData[i].sunlight[x] %>
+                                                                <% } %>
                                                     </div>
                                                     <div class="potbed element">Potted/Bed:
                                                         <%= plantData[i].pottedBeds %>
@@ -119,12 +120,14 @@
                                                     <div class="article element">Article:
                                                         <a href="<%= plantData[i].article %>">Link</a>
                                                     </div>
-                                                    <div class="more element">
-                                                        <button>More</button>
+                                                    <div class="moreelement">
+                                                        <form action="/search/<%= plantData[i]._id %>" method="POST">
+                                                            <button>More</button>
+                                                        </form>
                                                     </div>
                                                 </div>
                                         </div>
-                                        <% if (i == 3) break; %>
+                                        <% if (i==3) break; %>
                                             <% } %>
 
 
