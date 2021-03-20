@@ -1,3 +1,6 @@
+.content {
+  font-family: "Oswald", sans-serif;
+}
 .backg {
   height: 700px;
   width: 100%;
@@ -8,11 +11,13 @@
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
 }
 .contain1 {
   position: absolute;
   text-align: center;
-  color: black;
+  color: white;
+  font-weight: 300;
   left: 50px;
   width: 300px;
   height: 60px;

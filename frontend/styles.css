@@ -74,6 +74,7 @@
 .tile {
   font-size: 40px;
   margin-top: 20px;
+  font-family: "Oswald", sans-serif;
 }
 .fact {
   font-size: 20px;
@@ -108,6 +109,7 @@
   border-color: #ffff33;
   border-radius: 40px;
   box-shadow: 20px 20px 10px #888888;
+  font-family: "Roboto Slab", serif;
 }
 .information {
   position: absolute;

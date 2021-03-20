@@ -41,3 +41,6 @@ button {
   color: white;
   text-align: center;
 }
+.stage h1 {
+  font-family: "Open Sans", sans-serif;
+}
