@@ -1,8 +1,7 @@
 let tempK;
 let temp;
 let humidity;
-let message = document.getElementsByClassName("text")
-let mytry = document.querySelector("#try");
+let message = document.getElementById("text")
 
 document.getElementById('location-button').onclick = function() {
 
@@ -23,8 +22,15 @@ function myFunction() {
                 humidity = data.main.humidity
                 console.log(temp)
                 console.log(humidity)
-
-                mytry.textContent = "hi";
+                if (humidity > 90) {
+                    message.textContent = "It might rain";
+                } else if (humidity > 80) {
+                    message.textContent = "Less chance of rain Today";
+                } else if (temp > 30) {
+                    message.textContent = "It won't rain today and will remain Sunny";
+                } else {
+                    message.textContent = "It won't rain today"
+                }
             })
     })
 
