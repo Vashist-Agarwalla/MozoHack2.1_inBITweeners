@@ -3,13 +3,13 @@ html {
 }
 
 .entire {
-    height: 1080px;
+    height: 100%;
     width: 100%;
     overflow-x: hidden;
 }
 
 .home {
-    height: 700px;
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 0px;
@@ -27,7 +27,7 @@ html {
 
 .triangle {
     position: absolute;
-    top: 270px;
+    top: 20rem;
     margin-left: 1280px;
 }
 
@@ -82,10 +82,10 @@ html {
 
 .information {
     position: absolute;
-    top: 1438px;
+    /* top: 1438px; */
     left: 0;
     width: 100%;
-    height: 2960px;
+    height: 195rem;
     background-color: #aeebfe;
     text-align: center;
 }
@@ -118,26 +118,4 @@ html {
     border-style: solid;
     border-color: #ffff33;
     box-shadow: 20px 20px 10px #888888;
-}
-
-.foot {
-    position: absolute;
-    top: 4350px;
-    left: 0;
-    right: 0;
-    background-color: #16201a;
-    height: 200px;
-    width: 100%;
-    color: white;
-    text-align: center;
-}
-
-.line {
-    width: 30%;
-    align-self: center;
-    margin-left: 530px;
-}
-
-.foot h4 {
-    margin-top: 110px;
 }

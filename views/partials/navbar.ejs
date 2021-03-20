@@ -1,29 +1,39 @@
-<div class="navbar">
-    <div class="leftnav">
-        <img src="images/Logo.png" height="50px" width=" 50px">
-    </div>
-    <div class="midnav">
-        <a href="/#">HOME</a>
-        <a href="/#info">INFO</a>
-        <a href="/" style="margin-right:0;">ABOUT</a>
-    </div>
-    <div class="rightnav">
-        <!-- <button class="loginbutton">
-            LOGIN
-        </button> -->
-        <div class="dropdown">
-            <% if (activeUser===null) { %>
-                <button class="dropbtn">Login</button>
-                <div class="dropdown-content">
-                    <a href="/login">Login</a>
-                    <a href="/signup">Sign Up</a>
+<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark navbar-expand-md py-0 fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand leftnav" href="#">
+            <img src="images/Logo.png" alt="" width="43" height="43">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <div class="midnav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" href="#">Info</a>
+                    <a class="nav-link active" href="#">About</a>
                 </div>
-                <% } else { %>
-                    <button class="dropbtn">Hi,<%= activeUser.username %> </button>
-                    <div class="dropdown-content">
-                        <a href="/logout">Log Out</a>
-                    </div>
-                    <% } %>
+            </div>
         </div>
     </div>
-</div>
+    <div class="btn-group rightnav">
+        <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Login
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/login">Login</a></li>
+            <li><a class="dropdown-item" href="/signup">signup</a></li>
+        </ul>
+    </div>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script>
+    $(function() {
+        $(document).scroll(function() {
+            var $nav = $("#mainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+    });
+</script>

@@ -1,0 +1,23 @@
+.foot {
+    position: absolute;
+    /* top: 4350px; */
+    left: 0;
+    right: 0;
+    background-color: #16201a;
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    bottom: 0px;
+}
+
+.line {
+    width: 30%;
+    align-self: center;
+    margin-left: 530px;
+}
+
+
+/* .foot h4 {
+    margin-top: 110px;
+} */
