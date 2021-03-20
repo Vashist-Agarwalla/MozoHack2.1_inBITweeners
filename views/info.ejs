@@ -36,12 +36,9 @@
                 </div>
                 <div class="contain2">
                     <ul>
-                        <li>
-                        </li>
-                        <li>again</li>
                         <% for (x in selectedPlant.about) {%>
                             <li>
-                                <%= selectedPlant.about[0] %>
+                                <%= selectedPlant.about[x] %>
                             </li>
                             <% } %>
                     </ul>
