@@ -20,42 +20,115 @@
 
 <body>
     <%- include('./partials/navbar') %>
-        <div class="container">
-            <form style="border:1px solid #ccc">
-                <p>Fill the form to find the ideal plant for yourself!</p>
-                <hr>
-                <section>
-                    <label for="soil"><b>Choose your soil type:</b></label>
-                    <select class="box">
-                        <option value="">Select an option</option>
-                        <option value="Flexible">Flexible</option>
-                        <option value="Loamy">Loamy</option>
-                        <option value="Rich">Rich</option>
-                        <option value="Well drained">Well drained</option>
-                    </select><br><br>
-                </section>
-                <section>
-                    <label for="rooftop"><b>Choose your preferance:</b></label>
-                    <select class="box">
-                        <option value="rooftop">Rooftop</option>
-                        <option value="indoors">Indoors</option>
-                    </select><br><br>
-                </section>
-                <section>
-                    <label for=" plant type"><b>Choose the Plant type</b></label>
-                    <select class="box">
-                        <option value="Shrubs"></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select><br><br>
-                </section>
-                <button>Submit</button>
-            </form>
+        <div class="images">
+            <img src="images/loginbg.png" height="720px" width="100%">
         </div>
 
-        <%- include('./partials/foot') %>
+        <div class="contain2">
+            <div class="details">
+                <form style="border:1px solid #ccc" action="/search" method="POST">
+                    <div class="container1">
+                        <h1>Additional details</h1>
+                        <p>Fill the form to find the ideal plant for yourself!</p>
+                        <hr>
+
+                        <label for="location"><b>Choose water availability:</b></label>
+                        <select id="location" name="water">
+                            <option ></option>
+                            <option value="Wet">Wet</option>
+                            <option value="Moist">Moist</option>
+                            <option value="Semi-Moist">Semi moist</option>
+                            <option value="dry">dry</option>
+                        </select><br><br>
+
+                        <label for="soil"><b>Choose your soil type:</b></label>
+                        <select class="box" name="soil">
+                            <option ></option>
+                            <option value="Well drained">Well drained</option>
+                            <option value="Loamy">Loamy</option>
+                            <option value="Sand">Sand</option>
+                            <option value="Dry loam">Dry loam</option>
+                        </select><br><br>
+
+                        <label for="rooftop"><b>Choose your preferance:</b></label>
+                        <select class="box">
+                            <option ></option>
+                            <option value="rooftop">Rooftop</option>
+                            <option value="indoors">Indoors</option>
+                        </select><br><br>
+
+
+                        <label for="Sunlight"><b>Sunlight</b></label>
+                        <select class="box" name="sunlight">
+                            <option ></option>
+                            <option value="Full sun">Full sun</option>
+                            <option value="Partial shade">Partial shade</option>
+                            <option value="Partial shade to Full sun">Both</option>
+                        </select><br><br>
+
+                        <div class="clearfix">
+                            <button type="submit" class="submitbtn">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="name">
+                HELLO,
+                <%= activeUser.username %> ! :)
+            </div>
+        </div>
+
+        <% for (i in plantData) { %>
+            <% if (i==0) { %>
+                <div class="components" style="top: 560px; right:30px;">
+                    <% } else if (i==1) { %>
+                        <div class="components" style="top: 650px; right:380px;">
+                            <% } else if (i==2) { %>
+                                <div class="components" style="top: 740px; right:730px;">
+                                    <% } else if (i==3) { %>
+                                        <div class="components" style="top: 830px; right:1080px;">
+                                            <% } %>
+                                                <div class="plantimg">
+                                                    <img src="<%= plantData[i].image %>" height="200px" width="200px">
+                                                </div>
+                                                <div class="elements">
+                                                    <div class="name1 element">Name:
+                                                        <%= plantData[i].name %>
+                                                    </div>
+                                                    <div class="species element">Species:
+                                                        <%= plantData[i].species %>
+                                                    </div>
+                                                    <div class="climate element">Climate:
+                                                        <% for (x in plantData[i].climate ) { %>
+                                                            <%= plantData[i].climate[x] %>
+                                                                <% } %>
+                                                    </div>
+                                                    <div class="soil element">Soil:
+                                                        <%= plantData[i].soil %>
+                                                    </div>
+                                                    <div class="water element">Water:
+                                                        <%= plantData[i].water %>
+                                                    </div>
+                                                    <div class="sunlight element">Sunlight:
+                                                        <%= plantData[i].sunlight %>
+                                                    </div>
+                                                    <div class="potbed element">Potted/Bed:
+                                                        <%= plantData[i].pottedBeds %>
+                                                    </div>
+                                                    <div class="article element">Article:
+                                                        <a href="<%= plantData[i].article %>">Link</a>
+                                                    </div>
+                                                    <div class="more element">
+                                                        <button>More</button>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <% if (i == 3) break; %>
+                                            <% } %>
+
+                                                <!-- <%- include('./partials/foot') %> -->
+                                </div>
+
 </body>
 
 </html>

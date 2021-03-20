@@ -1,14 +1,8 @@
-.container {
-    margin-top: 90px
-}
-
-
-/* body {
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    background-color: #353940;
     overflow-y: visible;
-    height: max-content;
+    height: 100%;
     width: 100%;
 }
 
@@ -16,30 +10,10 @@
     box-sizing: border-box;
 }
 
-
-
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-}
-
-input[type="text"]:focus,
-input[type="password"]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
 hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
 }
-
-
 
 .contain2 button {
     background-color: #4caf50;
@@ -56,8 +30,6 @@ hr {
     opacity: 1;
 }
 
-
-
 .submitbtn {
     padding: 10px 30px;
     margin: 30px 0px 0px 30px;
@@ -72,42 +44,13 @@ hr {
     margin-right: 100px;
 }
 
+
+/* Clear floats */
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-}
-
-.suggestions {
-    position: relative;
-    top: 200px;
-    height: 500px;
-    color: beige;
-}
-
-header {
-    background-color: black;
-    padding: 20px;
-    height: 100px;
-    text-align: center;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 20px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
-    margin-right: 20px;
 }
 
 .contain2 {
@@ -115,4 +58,72 @@ li {
     top: 80px;
 }
 
-*/
+.details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+form {
+    background-color: white;
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    width: max-content;
+}
+
+.name {
+    margin-top: 230px;
+    color: white;
+    margin-left: 750px;
+    font-size: 80px;
+}
+
+.components {
+    position: absolute;
+    background-color: white;
+    height: 600px;
+    width: 20rem;
+    border-width: 9px;
+    border-style: solid;
+    border-color: #95ad0d;
+    box-shadow: 20px 20px 10px #888888;
+    align-content: center;
+}
+
+.plantimg {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 260px;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+.element {
+    margin-top: 10px;
+}
+
+.elements button {
+    background-color: #95ad0d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    opacity: 0.9;
+    box-shadow: 5px 5px 3px #888888;
+}

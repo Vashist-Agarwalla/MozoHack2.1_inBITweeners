@@ -3,6 +3,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 
 const UserData = require('./models/user')
+const PlantData = require('./models/plant')
 
 const app = express();
 
@@ -23,25 +24,39 @@ mongoose.connect('mongodb://localhost:27017/mozoHack', { useNewUrlParser: true, 
 
 let activeUser = null;
 
+let plantData;
+
 app.get('/', async(req, res) => {
-    console.log(activeUser)
     res.render('home', { activeUser })
 })
 
+app.get('/search', async(req, res) => {
+    if (activeUser === null) {
+        res.redirect('/login')
+    }
+    res.render('search', { activeUser, plantData })
+})
+
+app.post('/search', async(req, res) => {
+    const filter = req.body;
+    console.log(filter)
+    const plantData = await PlantData.find(filter)
+    res.render('search', { activeUser, plantData })
+})
+
 app.get('/login', (req, res) => {
-    res.render('login')
+    res.render('login', { activeUser })
 })
 
 app.post('/login', async(req, res) => {
     const active = new UserData(req.body)
-    console.log(active)
     activeUser = await UserData.findOne({ username: active.username })
-    console.log(activeUser)
-    res.redirect('/')
+    plantData = await PlantData.find({})
+    res.redirect('/search')
 })
 
 app.get('/signup', (req, res) => {
-    res.render('signup')
+    res.render('signup', { activeUser })
 })
 
 app.post('/signup', async(req, res) => {

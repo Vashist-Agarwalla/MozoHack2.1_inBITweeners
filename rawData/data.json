@@ -1,5 +1,4 @@
-[
-    {
+[{
         "name": "Green chillies",
         "species": "Capsicum annuum",
         "type": "Spice",
@@ -331,6 +330,24 @@
         "name": "Cauliflower",
         "species": "Brassica oleracea",
         "type": "Shrubs",
+        "climate": [
+            "Warm", "Cold"
+        ],
+        "water": "Moist",
+        "soil": "Loamy",
+        "pottingMix": "Yea",
+        "sunlight": "Full sun",
+        "pottedBeds": "Beds",
+        "growthTime": "90-120 Days",
+        "rooftop": true,
+        "article": "https://www.wikihow.com/Grow-Cauliflower",
+        "youtube": "uhFbRyL5Jrc",
+        "image": "https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/image_nodes/cauliflower.jpg?itok=-SYNFsWf"
+    },
+    {
+        "name": "Cauliflower",
+        "species": "Brassica oleracea",
+        "type": "",
         "climate": [
             "Warm", "Cold"
         ],
