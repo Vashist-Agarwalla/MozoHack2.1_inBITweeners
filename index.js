@@ -24,7 +24,7 @@ mongoose.connect('mongodb://localhost:27017/mozoHack', { useNewUrlParser: true, 
 let activeUser = null;
 
 app.get('/', (req, res) => {
-    res.send("Home")
+    res.render('home')
 })
 
 app.get('/login', (req, res) => {
