@@ -39,7 +39,8 @@ const plantSchema = new mongoose.Schema({
     },
     image: {
         type: String,
-    }
+    },
+    about: [String]
 })
 
 const PlantData = mongoose.model('PlantData', plantSchema)
