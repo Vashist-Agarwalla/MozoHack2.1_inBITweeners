@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Green chillies",
+        "species": "Capsicum annuum",
+        "type": "Spice",
+        "climate": [
+            "Warm"
+        ],
+        "water": "Moist",
+        "soil": "Flexible",
+        "pottingMix": "Varies",
+        "sunlight": "Full Sun",
+        "potted/Beds": "Pot",
+        "growthTime": "60-120 Days",
+        "rooftop": true,
+        "article": "https://indiagardening.com/how-to-grow/how-to-grow-green-chilli-plant-at-home-in-india/",
+        "youtube": "rPlEA5_JrBs",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy5nSSu4f23YSYjyt0XDs-pKWAzjOKaQwt2w&usqp=CAU"
+    },
+    {
+        "name": "Mint",
+        "species": "Mentha arvensis",
+        "type": "Kitchen herb",
+        "climate": [
+            "Warm",
+            "Cold"
+        ],
+        "water": "Moist",
+        "soil": "Well drained",
+        "pottingMix": "Yes",
+        "sunlight": "Partial shade to Full sun",
+        "potted/Beds": "Pot",
+        "growthTime": "14-28  Days",
+        "rooftop": true,
+        "article": "https://www.almanac.com/plant/mint",
+        "youtube": "KLtn6Po-404",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iVBPQtGkz7qWwlhDCw3xTAunp-E9ZLaeYJPLnx5m0Oiw8qChBD3YqYBgOw&usqp=CAc"
+    },
+    {
+        "name": "Lemongrass",
+        "species": "Cymbopogon citratus",
+        "type": "Ornamental grass",
+        "climate": [
+            "Warm",
+            "Sunny"
+        ],
+        "water": "Moist",
+        "soil": "Loamy",
+        "pottingMix": "Varies",
+        "sunlight": "Full Sun",
+        "potted/Beds": "Both",
+        "growthTime": "120-180  Days",
+        "rooftop": true,
+        "article": "https://bonnieplants.com/how-to-grow/growing-lemongrass/",
+        "youtube": "sxbATeFMDQU",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxddSvbr5bqfRm8iwJrilm4BqTCXHityYHZg&usqp=CAU"
+    },
+    {
+        "name": "Basil",
+        "species": "Ocimum basilicum",
+        "type": "Kitchen herb",
+        "climate": [
+            "Warm",
+            "Sunny"
+        ],
+        "water": "Semi-Moist",
+        "soil": "Well drained",
+        "pottingMix": "No",
+        "sunlight": "Partial shade to Full sun",
+        "potted/Beds": "Both",
+        "growthTime": "21-28 Days",
+        "rooftop": true,
+        "article": "https://www.almanac.com/plant/basil",
+        "youtube": "1SG_MYmkDMU",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWO8V8oxndyDbArd6XowWOrhFpXY4PXQA6Sg&usqp=CAU"
+    },
+    {
+        "name": "Spinach",
+        "species": "Spinacia oleracea",
+        "type": "Leafy ",
+        "climate": [
+            "Cold"
+        ],
+        "water": "Moist",
+        "soil": "Well drained",
+        "pottingMix": "Yes",
+        "sunlight": "Partial shade to Full sun",
+        "potted/Beds": "Both",
+        "growthTime": "45-60 Days",
+        "rooftop": true,
+        "article": "https://www.allthatgrows.in/blogs/posts/grow-spinach-at-home-in-india",
+        "youtube": "1RRNu4QS11g",
+        "image": "https://cdn.shopify.com/s/files/1/1380/2059/products/Spinach-All-Green_600x600.jpg?v=1598082959"
+    },
+    {
+        "name": "Pepper",
+        "species": "Piper nigrum",
+        "type": "Spice",
+        "climate": [
+            "Warm"
+        ],
+        "water": "Moist",
+        "soil": "Well drained",
+        "pottingMix": "Yes",
+        "sunlight": "Partial shade",
+        "potted/Beds": "Both",
+        "growthTime": "60-90 Days",
+        "rooftop": true,
+        "article": "https://bonnieplants.com/how-to-grow/growing-peppers/",
+        "youtube": "YEKrWFxnLJ8",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUY8QAhqY4Q8OqevDm21R_Jc9OhQSVX43UzQ&usqp=CAU"
+    },
+    
+    {
+        "name": "Cucumber",
+        "species": "Cucumis sativus",
+        "type": "Creeper",
+        "climate": [
+            "Warm"
+        ],
+        "water": "Semi-Moist",
+        "soil": "Loamy",
+        "pottingMix": "Varies",
+        "sunlight": "Full Sun",
+        "potted/Beds": "Both",
+        "growthTime": "55-60 Days",
+        "rooftop": true,
+        "article": "https://www.almanac.com/plant/cucumbers",
+        "youtube": "5hbCJQFBXEU",
+        "image": "https://i2.wp.com/www.gardeningchannel.com/wp-content/uploads/2020/04/gardeningchannel-growing-cucumber-in-pot.jpg?fit=720%2C400&ssl=1"
+    }
+]
