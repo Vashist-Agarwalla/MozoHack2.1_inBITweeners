@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Signup</title>
 </head>
 <body>
 
-    <h1>Login</h1>
-    <form action='/login' method="POST">
+    <h1>Sign UP</h1>
+
+    <form action="/signup" method="POST">
         <section>
             <label for="username">Enter username</label>
             <input name="username" type="text" id="username" placeholder="username">
@@ -18,7 +19,11 @@
             <label for="password">Enter password</label>
             <input name="password" type="password" id="password" placeholder="password">
         </section>
-        <button>Login</button>
+        <section>
+            <label for="location">Enter location</label>
+            <input name="location" type="text" id="location" placeholder="location">
+        </section>
+        <button>Sign Up</button>
     </form>
     
 </body>
