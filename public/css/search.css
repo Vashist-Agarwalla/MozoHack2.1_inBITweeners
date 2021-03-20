@@ -1,0 +1,118 @@
+.container {
+    margin-top: 60px
+}
+
+
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #353940;
+    overflow-y: visible;
+    height: max-content;
+    width: 100%;
+}
+
+.contain2 {
+    box-sizing: border-box;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+
+.contain2 button {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.contain2 button:hover {
+    opacity: 1;
+}
+
+
+
+.submitbtn {
+    padding: 10px 30px;
+    margin: 30px 0px 0px 30px;
+    font-size: medium;
+}
+
+.container1 {
+    padding: 16px;
+}
+
+.clearfix {
+    margin-right: 100px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.suggestions {
+    position: relative;
+    top: 200px;
+    height: 500px;
+    color: beige;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contain2 {
+    position: absolute;
+    top: 80px;
+}
+
+*/
