@@ -17,13 +17,23 @@
         </div>
     </div>
     <div class="btn-group rightnav">
-        <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            Login
-        </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/login">Login</a></li>
-            <li><a class="dropdown-item" href="/signup">signup</a></li>
-        </ul>
+        <% if (activeUser===null) { %>
+            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Login
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/login">Login</a></li>
+                <li><a class="dropdown-item" href="/signup">signup</a></li>
+            </ul>
+            <% } else { %>
+                <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hi, <%= activeUser.username %> 
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/logout">Logout</a></li>
+                    <li><a class="dropdown-item" href="/signup">signup</a></li>
+                </ul>
+                <% } %>
     </div>
 </nav>
 

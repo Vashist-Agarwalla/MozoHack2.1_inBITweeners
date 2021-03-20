@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
-    username : {
+    username: {
         type: String,
         required: true
     },
@@ -11,7 +11,8 @@ const userSchema = new mongoose.Schema({
     },
     location: {
         type: String
-    }
+    },
+    pdate: [String]
 })
 
 const UserData = mongoose.model('UserData', userSchema)

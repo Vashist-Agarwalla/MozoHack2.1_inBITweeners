@@ -3,7 +3,6 @@ const path = require('path');
 const mongoose = require('mongoose');
 
 const UserData = require('./models/user')
-const PlantData = require('./models/plant')
 
 const app = express();
 
@@ -25,9 +24,7 @@ mongoose.connect('mongodb://localhost:27017/mozoHack', { useNewUrlParser: true, 
 let activeUser = null;
 
 app.get('/', async(req, res) => {
-    // const data = await PlantData.find()
-    // console.log(data)
-
+    console.log(activeUser)
     res.render('home', { activeUser })
 })
 
@@ -37,14 +34,10 @@ app.get('/login', (req, res) => {
 
 app.post('/login', async(req, res) => {
     const active = new UserData(req.body)
-    activeUser = await UserData.findOne({ username: active.username, password: active.password })
-        .then(
-            res.redirect('/')
-        )
-        .catch(
-            console.log('wrong password')
-        )
-    res.send("TRY")
+    console.log(active)
+    activeUser = await UserData.findOne({ username: active.username })
+    console.log(activeUser)
+    res.redirect('/')
 })
 
 app.get('/signup', (req, res) => {
@@ -54,6 +47,7 @@ app.get('/signup', (req, res) => {
 app.post('/signup', async(req, res) => {
     const newUser = new UserData(req.body);
     await newUser.save()
+    console.log(newUser)
     res.redirect('/login')
 })
 
