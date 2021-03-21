@@ -27,12 +27,64 @@ let activeUser = null;
 let plantData;
 let selectedPlant;
 
+function formatDate(date) {
+    var d = new Date(date),
+        m = '' + (d.getMonth() + 1),
+        day = '' + d.getDate(),
+        y = d.getFullYear();
+
+    if (m.length < 2)
+        m = '0' + m;
+    if (day.length < 2)
+        day = '0' + day;
+
+    return [y, m, day];
+}
+
 app.get('/', async(req, res) => {
     res.render('home', { activeUser })
 })
 
+app.get('/about', async(req, res) => {
+    res.render('about', { activeUser })
+})
+
 app.get('/grow', async(req, res) => {
-    res.render('grow', { activeUser })
+    let Tdate = Date()
+    let cD = formatDate(Tdate)
+    let pD = activeUser.pdate;
+    let flag = 0;
+    let B = activeUser.balance;
+    while (flag === 0) {
+        if (cD[0] == pD[0]) {
+            if (cD[1] == pD[1]) {
+                B = B - (cD[2] - pD[2])
+                flag = 1;
+                break;
+            } else if (pD[1] % 2 == 0) {
+                B = B - [30 - pD[2]] - 1;
+                pD[1] = pD[1] + 1;
+                pD[2] = 1;
+                continue;
+            } else {
+                B = B - [38 - pD[2]] - 1;
+                pD[1] = pD[1] + 1;
+                pD[2] = 1;
+            }
+        }
+    }
+
+    res.render('grow', { activeUser, B })
+})
+
+
+app.get('/newgrow', async(req, res) => {
+    let Tdate = Date()
+    activeUser.pdate = formatDate(Tdate)
+    let bal = selectedPlant.growthTime
+    await UserData.findOneAndUpdate({ username: activeUser.username }, { pdate: activeUser.pdate, balance: bal }, { new: true })
+        // console.log(activeUser.pdate)
+    res.redirect('/grow')
 })
 
 app.get('/about', async(req, res) => {
@@ -56,7 +108,7 @@ app.post('/search', async(req, res) => {
 app.post('/search/:id', async(req, res) => {
     const { id } = req.params
     selectedPlant = await PlantData.findOne({ _id: id })
-    console.log(selectedPlant)
+        // console.log(selectedPlant)
     res.redirect('/info')
 })
 
@@ -72,6 +124,9 @@ app.post('/login', async(req, res) => {
     const active = new UserData(req.body)
     activeUser = await UserData.findOne({ username: active.username })
     plantData = await PlantData.find({})
+    if (activeUser.balance) {
+        res.redirect('/grow')
+    }
     res.redirect('/search')
 })
 
@@ -88,6 +143,10 @@ app.post('/signup', async(req, res) => {
 
 app.get('/logout', (req, res) => {
     activeUser = null
+    res.redirect('/')
+})
+
+app.get('*', (req, res) => {
     res.redirect('/')
 })
 

@@ -24,7 +24,7 @@
         <%- include('./partials/navbar') %>
             <div class="backg">
                 <div class="bgimg">
-                    <img src="images/infobg.png" height="100%" width="100%">
+                    <img src="images/img.jpg" height="100%" width="1500px">
                 </div>
             </div>
             <div>
@@ -50,13 +50,11 @@
                     <iframe id="video" width="550" height="300" src="https://www.youtube.com/embed/<%= selectedPlant.youtube %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="plantnow">
-                    <button>PLANT NOW!</button>
+                    <button id="plant">PLANT NOW!</button>
                 </div>
             </div>
-            <!-- <div style='top: 4000px'>
-                <%- include('./partials/foot') %>
-            </div> -->
     </div>
+    <script src="/js/plant.js"></script>
 
 </body>
 

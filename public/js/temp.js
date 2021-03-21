@@ -23,9 +23,9 @@ function myFunction() {
                 console.log(temp)
                 console.log(humidity)
                 if (humidity > 90) {
-                    message.textContent = "It might rain";
+                    message.textContent = "It might rain today";
                 } else if (humidity > 80) {
-                    message.textContent = "Less chance of rain Today";
+                    message.textContent = "Less chance of rain today";
                 } else if (temp > 30) {
                     message.textContent = "It won't rain today and will remain Sunny";
                 } else {

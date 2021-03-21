@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema({
         type: String
     },
     pdate: [String],
-    about: [String]
+    balance: String
 })
 
 const UserData = mongoose.model('UserData', userSchema)
