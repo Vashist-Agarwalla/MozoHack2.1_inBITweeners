@@ -137,7 +137,6 @@ app.get('/signup', (req, res) => {
 app.post('/signup', async(req, res) => {
     const newUser = new UserData(req.body);
     await newUser.save()
-    console.log(newUser)
     res.redirect('/login')
 })
 
